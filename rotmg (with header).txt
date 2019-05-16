@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Rotmg</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+}
+
+div {
+border: px solid #ccc;
+}
+
+h1 {
+  margin: auto;
+  text-align: left;
+  max-width: 735px;
+}
+
+.realm {
+  color: #333;
+}
+
+.eye {
+  color: #08c;
+}
+
+.theheader {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.header {
+  border: 0px solid #ccc;
+  height: 45px;
+  text-align: center;
+  width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  Vertical-align: auto;
+  float: left;
+}
+
+.button {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12px;
+  float: left;
+  padding: 15px;
+  border: 0px solid #ccc;
+}
+
+.button2 {
+  height: 90%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 2px;
+  margin-right: 10px;
+  float: right;
+}
+
+#selected {
+  background-image: linear-gradient(#ccc, #ccc);
+  color: #555;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+a.button2 {
+  text-decoration: none;
+  color: black;
+}
+
+a:link.button2, a:visited.button2 {
+  background-image: linear-gradient(white, #ddd);
+}
+
+a:hover.button2, a:active.button2 {
+  background-image: linear-gradient(#eee, #ccc);
+}
+
+a:active.button2 {
+  border: 1px dotted black;
+}
+
+a:link .button, a:visited .button {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+a:hover .button, a:active .button {
+  color: black;
+  opacity: 1;
+}
+
+.container {
+  margin-top: 10px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  max-width: 1000px;
+  height: 700px;
+}
+
+.content {
+  display: inline-block;
+  width: 500px;
+  max-height: 600px;
+  vertical-align: top;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.nav {
+  display: inline-block;
+  width: 200px;
+  max-height: 600px;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.img {
+  display: inline-block;
+  float: left;
+}
+
+.logoname {
+  display: inline-block;
+  float: left;
+  padding-top: 12px;
+  font-size: 1.2em;
+}
+
+.dropdown {
+  width: 9px;
+}
+
+</style>
+</head>
+<body>
+<div class="theheader">
+<div class="header">
+<div class="logo"><div class="img"><img src="https://www.realmeye.com/s/cz/img/eye.png" /></div><div class="logoname"><b><span class="realm">Realm</span><span class="eye">Eye</span></b></div></div>
+<a href=""><div class="button">Guilds<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Players<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Characters<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Pets<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Items<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Trading<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div class="button">Help<img class="dropdown" src="https://image.flaticon.com/icons/svg/60/60995.svg"/></div></a>
+<a href=""><div id="selected" class="button">Wiki</div></a>
+<a href=""><div class="button">Forum</div></a>
+<a class="button2" href="">Log In</a>
+<a class="button2" href=""><img src="https://static.thenounproject.com/png/14173-200.png" width="15px" height="15px" /></a>
+</div>
+</div>
+<div class="container">
+<h1>Realm of the Mad God</h1>
+<div class="content">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div class="nav">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+</body>
+</html>
